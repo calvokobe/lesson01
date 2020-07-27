@@ -1,8 +1,8 @@
-const fs = require("fs");
-fs.readFile("./error.log", "utf-8", (err, data) => {
-  if (err) throw err;
-  var result = data.split('\n');
-  for (let i=0; i<3; i++){
-    console.log(result[i].substr(6,21))
-  }  
-});
+for (let i = 0; i <= 50; i++) {
+    const str = i.toString()
+    if ((i % 3) == 0 || str.match(/3/)) {
+        console.log("WOW");
+    } else {
+        console.log(i);
+    }
+}
