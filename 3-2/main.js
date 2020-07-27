@@ -15,7 +15,7 @@ for (let i = 0; i < arg1; i++) {
         if ((arg2 % 2) === 1) {
             console.log(`${odd.repeat(arg2 / 2)}-`);
         } else {
-           console.log(`${odd.repeat(arg2 / 2)}`);
+            console.log(`${odd.repeat(arg2 / 2)}`);
         }
     }
 }
